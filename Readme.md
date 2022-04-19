@@ -4,6 +4,7 @@
 
 ## Node.JS
   - Stwórz katalog dla aplikacji ( ```node``` )
+  , - Wejdz do stworzonego katalogu TERMINALEM ( ```cd NAZWAFOLDERU```, lub ```cd ..``` (dla wyścia do wyższego folderu) )
   - Stwórz główny plik JS (index.js)
   - Zainicjuj paczkę NPM (tworzenie package.json) - wpsz w konsoli - ``` npm init ``` - a następnie odpowiedz na pytania konfiguracyjne
   - Pobierz paczkę express ``` npm install express ```
