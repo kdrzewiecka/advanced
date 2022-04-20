@@ -1,9 +1,12 @@
 const express = require('express')
 const app = express()
+const path = require('path')
 
-app.get('/', function (req, res) {
-  console.log(req)
-  res.send('Hello World')
-})
+// KONFIGURACJA STATYCZNEGO FOLDERU
+app.use( express.static( path.join(__dirname, '/src/static')))
+
+// app.get('*', function (req, res) {
+//   console.log(req.originalUrl)
+// })
 
 app.listen(80)
